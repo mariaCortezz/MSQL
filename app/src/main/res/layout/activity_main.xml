@@ -8,7 +8,7 @@
     android:background="#949187"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main2">
 
     <TextView
         android:id="@+id/tv"
@@ -109,19 +109,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="5dp"
-                android:text="Consultar por código"
-                android:textColor="#0E0D0D"
+                android:layout_marginRight="15dp"
                 android:background="@drawable/estiloboton"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="-40dp"
+                android:paddingLeft="80dp"
                 android:shadowColor="#2314A8"
                 android:shadowDx="-3"
                 android:shadowDy="0"
                 android:shadowRadius="8"
-                android:drawableStart="@drawable/ic_search"
-                android:paddingLeft="80dp"
-                android:drawablePadding="-40dp"
-                />
+                android:text="Consultar por código"
+                android:textColor="#0E0D0D" />
 
             <Button
                 android:id="@+id/btn_consultaDescripcion"
