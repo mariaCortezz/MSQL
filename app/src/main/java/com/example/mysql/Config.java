@@ -18,17 +18,17 @@ public class Config {
 
     //URL PARA ACCESO A BASE DE DATOS LOCAL MYSQL.
     //public static final String urlGuardar = "http://192.168.43.46/mysqlcrud/guardar.php";                               //Guardar datos DB.
-    public static final String urlGuardar = "http://localhost/webService/Guardar.php";                               //Guardar datos DB.
+    public static final String urlGuardar = "http://localhost/webService/guardar.php";                               //Guardar datos DB.
 
-    public static final String urlEliminar = "http://localhost/webService/Eliminar.php";                             //Eliminar datos DB.
-    public static final String urlActualizar = "http://localhost/webService/Actualizar.php";                          //Actualizar datos DB.
+    public static final String urlEliminar = "http://localhost/webService/eliminar.php";                             //Eliminar datos DB.
+    public static final String urlActualizar = "http://localhost/webService/actualizar.php";                          //Actualizar datos DB.
 
     public static final String urlConsultaApiMySQLi = "http://localhost/webService/api.php";                          //Ver todos los registros DB.
-    public static final String urlConsultaApiPDO = "http://localhost/webService/BuscarAll.php";                       //Ver todos los registros DB.
+    public static final String urlConsultaApiPDO = "http://localhost/webService/buscarAll.php";                       //Ver todos los registros DB.
 
     public static final String urlConsultaCodigo = "http://localhost/webService/buscarArticulosCodigo.php";            //Busquedas por código.
     public static final String urlConsultaDescripcion = "http://localhost/webService/buscarArticulosDescripcion.php";  //Busquedas por descripción.
-    public static final String urlConsultaAllArticulos = "http://localhost/webService/BuscarArticulos.php";            //Devuelve todos los registros de la tabla MySQL.
+    public static final String urlConsultaAllArticulos = "http://localhost/webService/buscarArticulos.php";            //Devuelve todos los registros de la tabla MySQL.
 
 
 }
